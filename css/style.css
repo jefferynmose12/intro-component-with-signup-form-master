@@ -53,7 +53,7 @@ h1 {
 }
 
 .container {
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(./images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -156,9 +156,6 @@ small {
     }
 
     .container {
-        background-image: url(/images/bg-intro-desktop.png);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         padding: 20px 30px;
         margin: 2rem 2rem;
         box-shadow: 2px 2px 3px rgb(90, 90, 90);
@@ -179,7 +176,7 @@ small {
 }
 @media (max-width: 500px) {
     .container {
-        background-image: url(/images/bg-intro-mobile.png);
+        background-image: url(./images/bg-intro-mobile.png);
         display: block;
         text-align: center;
         padding: 75px 25px;
